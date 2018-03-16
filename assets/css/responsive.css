@@ -1,0 +1,68 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .iner{
+    padding: 1.200em;
+  }
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .wraper {
+        align-items: flex-end;
+    }
+    body::before {
+        height: 50vh;
+    }
+    body {
+        font-size: 16pt;
+    }
+    .iner {
+        padding: 0.10em;
+    }
+    .main{
+        padding-right: 200px;
+    }
+    .text-1 {
+        font-size: 2.125em;
+        line-height: .875;
+    }
+    .text-2 {
+        font-size: .875em;
+    }
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    body {
+        font-size: 14pt;
+    }
+    .wraper {
+        align-items: flex-end;
+    }
+    .iner {
+        padding: 0.8em;
+        border-radius: 0;
+    }
+    .main {
+        padding-right: 24px;
+    }
+    body::before {
+        height: 45vh;
+    }
+    .text-1 {
+        font-size: 2.125em;
+    }
+    .text-2 {
+        font-size: 1em;
+    }
+    hr {
+        height: 1.375rem;
+        line-height: 1.375rem;
+        margin-top: 11px;
+        margin-bottom: 11px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
