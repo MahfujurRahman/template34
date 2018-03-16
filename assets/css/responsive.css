@@ -3,6 +3,9 @@
   .iner{
     padding: 1.200em;
   }
+  html {
+    font-size: 13pt;
+}
     
 }
 /* Tablet Layout: 768px. */
@@ -13,8 +16,8 @@
     body::before {
         height: 50vh;
     }
-    body {
-        font-size: 16pt;
+    html{
+        font-size: 13pt;
     }
     .iner {
         padding: 0.10em;
@@ -33,8 +36,8 @@
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
-    body {
-        font-size: 14pt;
+    html {
+        font-size: 13pt;
     }
     .wraper {
         align-items: flex-end;
